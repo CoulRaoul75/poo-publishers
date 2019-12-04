@@ -1,0 +1,13 @@
+{
+    "name": "administrateur/modern-php",
+    "description": "Un premier projet",
+    "authors": [
+        {
+            "name": "vsumyuen",
+            "email": "vanessa.sumyuen@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.9"
+    }
+}
