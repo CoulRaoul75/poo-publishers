@@ -8,6 +8,19 @@
         }
     ],
     "require": {
-        "fzaninotto/faker": "^1.9"
+        "fzaninotto/faker": "^1.9",
+        "slim/slim": "^4.3",
+        "slim/psr7": "^0.6.0",
+        "php-di/php-di": "^6.0",
+        "ext-http": "*",
+        "ext-json": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "M2i\\monProjet\\Model\\": "src/Model",
+            "M2i\\monProjet\\Controller\\": "src/Controller"
+
+        }
     }
 }
